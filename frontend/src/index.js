@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 import store from './store';
 import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
-import './index.css';
 import './bootstrap.min.css';
+import './index.css';
 
 ReactDOM.render(
 	<Provider store={store}>
